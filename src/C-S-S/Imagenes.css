@@ -1,0 +1,30 @@
+div.imagen {
+    background-color: rgb(70, 138, 70);
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+div.imagen:hover {
+    border: 5px solid black;
+}
+
+div.desc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 9px;
+    height: 20%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
